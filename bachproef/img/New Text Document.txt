@@ -1,0 +1,8 @@
+convolutional process
+https://medium.freecodecamp.org/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050
+
+perceptron
+https://www.bogotobogo.com/python/scikit-learn/Single-Layer-Neural-Network-Adaptive-Linear-Neuron.php
+
+max-pooling
+https://computersciencewiki.org/index.php/Max-pooling_/_Pooling

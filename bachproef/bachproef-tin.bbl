@@ -1,0 +1,319 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Aiquan2012}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=e54142d8dcb3fd833ae0d6b892e1691a}{%
+           family={Aiquan},
+           familyi={A\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b2f1583881a4937ace1ff7e5f0c7a59f}{%
+           family={Gang},
+           familyi={G\bibinitperiod},
+           given={Bai},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=453380a1df5403a0f0f0e01ab6e732d4}{%
+           family={Po},
+           familyi={P\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=820f3b31cc90abf77c473201c3f0e1b8}{%
+           family={Yanni},
+           familyi={Y\bibinitperiod},
+           given={Guo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6c1db83793fb04c0d0deee02bc55354c}{%
+           family={Xinting},
+           familyi={X\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7867a7ec98d82cc61cc72054cfa5814e}
+      \strng{fullhash}{bf4a9b31fb4651b16c526e4efe540482}
+      \strng{bibnamehash}{bf4a9b31fb4651b16c526e4efe540482}
+      \strng{authorbibnamehash}{bf4a9b31fb4651b16c526e4efe540482}
+      \strng{authornamehash}{7867a7ec98d82cc61cc72054cfa5814e}
+      \strng{authorfullhash}{bf4a9b31fb4651b16c526e4efe540482}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nankai University}
+      \field{title}{Handwritten English Word Recognition based on Convolutional Neural Networks}
+      \field{year}{2012}
+    \endentry
+    \entry{Gelb1952}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0097d63137ab0640224ada4299ac2938}{%
+           family={Gelb},
+           familyi={G\bibinitperiod},
+           given={I.\bibnamedelimi J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0097d63137ab0640224ada4299ac2938}
+      \strng{fullhash}{0097d63137ab0640224ada4299ac2938}
+      \strng{bibnamehash}{0097d63137ab0640224ada4299ac2938}
+      \strng{authorbibnamehash}{0097d63137ab0640224ada4299ac2938}
+      \strng{authornamehash}{0097d63137ab0640224ada4299ac2938}
+      \strng{authorfullhash}{0097d63137ab0640224ada4299ac2938}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Study of Writing}
+      \field{year}{1952}
+    \endentry
+    \entry{Goff2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ce6cb0422c9107d215685215b3b09fb1}{%
+           family={Goff},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce6cb0422c9107d215685215b3b09fb1}
+      \strng{fullhash}{ce6cb0422c9107d215685215b3b09fb1}
+      \strng{bibnamehash}{ce6cb0422c9107d215685215b3b09fb1}
+      \strng{authorbibnamehash}{ce6cb0422c9107d215685215b3b09fb1}
+      \strng{authornamehash}{ce6cb0422c9107d215685215b3b09fb1}
+      \strng{authorfullhash}{ce6cb0422c9107d215685215b3b09fb1}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A History of Deep Learning}
+      \field{year}{2018}
+    \endentry
+    \entry{Katja2018}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=3d9be9502a6eddf92d29beb678e4e384}{%
+           family={Katja},
+           familyi={K\bibinitperiod},
+           given={Grace},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d7f206012f49604e5ca520b0048592fd}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={Salvatier},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=819f0063f70f63baaa8623596a147019}{%
+           family={Allan},
+           familyi={A\bibinitperiod},
+           given={Dafoe},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=75733f46ca52baff531ca7dc3966ca13}{%
+           family={BaoBao},
+           familyi={B\bibinitperiod},
+           given={Zhang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e5a11f40512283dac9f92cc913f78f85}{%
+           family={Owain},
+           familyi={O\bibinitperiod},
+           given={Evans},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab6a749e52aec71bcf420a4d82609da8}
+      \strng{fullhash}{d0250a44bacf69b0ea5f6bb96723d619}
+      \strng{bibnamehash}{d0250a44bacf69b0ea5f6bb96723d619}
+      \strng{authorbibnamehash}{d0250a44bacf69b0ea5f6bb96723d619}
+      \strng{authornamehash}{ab6a749e52aec71bcf420a4d82609da8}
+      \strng{authorfullhash}{d0250a44bacf69b0ea5f6bb96723d619}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AI Impacts}
+      \field{title}{When will AI Exceed Human Performance? Evidence from AI Experts}
+      \field{year}{2018}
+    \endentry
+    \entry{KeithD.2019}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=15d865cd9f3bdbfc11b34d5657c53f40}{%
+           family={Keith\bibnamedelima D.},
+           familyi={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Foote},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{15d865cd9f3bdbfc11b34d5657c53f40}
+      \strng{fullhash}{15d865cd9f3bdbfc11b34d5657c53f40}
+      \strng{bibnamehash}{15d865cd9f3bdbfc11b34d5657c53f40}
+      \strng{authorbibnamehash}{15d865cd9f3bdbfc11b34d5657c53f40}
+      \strng{authornamehash}{15d865cd9f3bdbfc11b34d5657c53f40}
+      \strng{authorfullhash}{15d865cd9f3bdbfc11b34d5657c53f40}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dataversity}
+      \field{title}{A Brief History of Machine Learning}
+      \field{year}{2019}
+    \endentry
+    \entry{Mahbubar2015}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=60abea35feab3c97ca5208ba0a4af7e4}{%
+           family={Mahbubar},
+           familyi={M\bibinitperiod},
+           given={Rahman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=93b7d01f6d8c058c6aad97d30d7c22b6}{%
+           family={M.\bibnamedelimi A.\bibnamedelimi H.},
+           familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Akhand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0339824308b589ef00d42b5fe8b1a207}{%
+           family={Shahidul},
+           familyi={S\bibinitperiod},
+           given={Islam},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3fc8324b7f5cd24de9a69fbc223c0a14}{%
+           family={Pintu},
+           familyi={P\bibinitperiod},
+           given={Chandra},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a0147582765478b2d71d41d0694d337d}
+      \strng{fullhash}{6745536adf56c124e5b30366b4a37e54}
+      \strng{bibnamehash}{6745536adf56c124e5b30366b4a37e54}
+      \strng{authorbibnamehash}{6745536adf56c124e5b30366b4a37e54}
+      \strng{authornamehash}{a0147582765478b2d71d41d0694d337d}
+      \strng{authorfullhash}{6745536adf56c124e5b30366b4a37e54}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MECS}
+      \field{title}{Bangla Handwritten Character Recognition using Convolutional Neural Network}
+      \field{year}{2015}
+    \endentry
+    \entry{Weixin}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=a84e39b2130fbf050f6a3e698802650a}{%
+           family={Weixin},
+           familyi={W\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=612bcde22db39c842fd292d93655aa97}{%
+           family={Lianwen},
+           familyi={L\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8adf810fdb2135aff13fd0eefc756c95}{%
+           family={Zeeheng},
+           familyi={Z\bibinitperiod},
+           given={Xie},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a5450fdbad057bbe286cf3c09ada3af3}{%
+           family={Ziyong},
+           familyi={Z\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb355c289124d823e330efd425cb947d}
+      \strng{fullhash}{405bba4fab2db0d86a1af30a9eeb9fe7}
+      \strng{bibnamehash}{405bba4fab2db0d86a1af30a9eeb9fe7}
+      \strng{authorbibnamehash}{405bba4fab2db0d86a1af30a9eeb9fe7}
+      \strng{authornamehash}{eb355c289124d823e330efd425cb947d}
+      \strng{authorfullhash}{405bba4fab2db0d86a1af30a9eeb9fe7}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{South China University of Technology}
+      \field{title}{Improved Deep Convolutional Neural Network For Online Handwritten Chinese Character Recognition using Domain-Specific Knowledge}
+    \endentry
+    \entry{Yann}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=10f14dd95822b983d924225a49f62b6f}{%
+           family={Yann},
+           familyi={Y\bibinitperiod},
+           given={Le\bibnamedelima Cun},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d80164a595da2414bd41020bf2cd6e37}{%
+           family={Yoshua},
+           familyi={Y\bibinitperiod},
+           given={Bengio},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{fullhash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{bibnamehash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{authorbibnamehash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{authornamehash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{authorfullhash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Word-Level Training of Handwritten Word Recognizer Based on Convolutional Neural Networks}
+    \endentry
+  \enddatalist
+  \missing{1959}
+  \missing{Arthur Samuel}
+  \missing{Rickandie2016}
+\endrefsection
+\endinput
+

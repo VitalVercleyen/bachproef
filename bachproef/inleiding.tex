@@ -1,0 +1,80 @@
+%%=============================================================================
+%% Inleiding
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}
+\label{ch:inleiding}
+
+%%De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
+
+%\begin{itemize}
+  %%\item context, achtergrond
+  %%\item afbakenen van het onderwerp
+  %%\item verantwoording van het onderwerp, methodologie
+  %%\item probleemstelling
+  %%\item onderzoeksdoelstelling
+  %%\item onderzoeksvraag
+  %%\item \ldots
+%%\end{itemize}
+
+Naast het gesproken woord en de verschillen in talen hierin zijn er ook verschillende soorten schriftsystemen die gebruikt worden in deze talen.
+Het onderscheiden van deze systemen is niet altijd vanzelfsprekend, vele van deze zijn vaak zeer verschillend maar een aantal zijn ook zeer gelijkaardig.
+Het herkennen hiervan is altijd al een onderwerp geweest in deep learning, echter is er niet veel onderzoek uitgevoerd naar het onderscheiden van specifieke karakters door middel van een convolutional neural network. 
+Bovendien is het belangrijk om te weten welk soort schrift er wordt gebruikt bij een meertalige omgeving die ook meerdere schriften bevat vooraleer een karakter herkenner kan gebruikt worden.
+
+Het automatisch herkennen van schriftsystemen is zeer gewild bij letterkundigen aangezien er bij de forensische taalkunde waarbij er gevraagd wordt om een bepaald document geschreven in een onbekend schrift te lokaliseren. Heel vaak gaat het daarbij vaak om heel onbekende of geheime schriftsystemen, of gewoon gecodeerde taal. 
+
+Ook is het classificeren van karakters uit verschillende schriftsystemen ook toepasselijk bij automatische transcriptie of het vinden van documenten op het internet die geschreven zijn in een specifiek schriftsysteem.
+
+In dit onderzoek wordt er nagegaan of het mogelijk is om door middel van een convolutional neural network verschillende schriftsystemen te classificeren en zodanig het proces te versnellen voor letterkundigen die trachten een bepaald schriftsysteem te identificeren. 
+
+ 
+
+\section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
+\label{sec:probleemstelling}
+
+
+Het probleem dat wordt aangepakt en verder ook onderzocht wordt is vooral het helpen van deskundigen in de forensische letterkunde, deze krijgen af en toe een taak opgelegd om een bepaald schriftsysteem te herkennen en zodanig te lokaliseren.
+Als het mogelijk is om met behulp van een convolutional neural network bepaalde software te ontwikkelen kunnen deze taalkundigen sneller hun taak volbrengen en dan ook de gekoppelde zaak versnellen.
+Meer specifiek gaat het hier over Chris Bulcaen, de curriculum manager bij Taal & Letterkunde aan de Ugent.
+Hij concludeerde dat dit inderdaad een meerwaarde zou geven in de forensische letterkunde en dat hierdoor het werk zeker versneld zou worden.
+
+Ook zouden meerdere bedrijven die bezig zijn met karakterherkenning en vertaling hier baan aan hebben.
+Deze zijn meer bezig met het herkennen van karakters in één schriftsysteem.
+Wanneer er een systeem zou bestaan dat eerst en vooral het schriftsysteem zou herkennen kan dit voordelig zijn wanneer er achteraf dan de correcte karakterherkenning toepast voor het juiste schriftsysteem.
+
+
+%Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
+
+\section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
+\label{sec:onderzoeksvraag}
+
+
+Is het mogelijk om onherkenbare handgeschreven geschriften door middel van een convolutional neural network te herkennen, het correcte schriftsysteem vast te stellen en zo het proces te versnellen voor letterkundigen.
+
+%Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
+
+\section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
+\label{sec:onderzoeksdoelstelling}
+
+Het beoogde resultaat van deze bachelorproef is het ontwikkelen van een convolutional neural network waarbij er een aantal verschillende n schriftsystemen zo accuraat mogelijk van elkaar kunnen worden onderscheiden.
+Een model waarbij alle soorten schriftsystemen herkend kunnen worden is niet het beoogde resultaat aangezien dit veel meer tijd zou kosten bij het verzamelen van data, dit wordt duidelijk in het onderzoek.
+
+%Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv. om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
+
+\section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}
+\label{sec:opzet-bachelorproef}
+
+% Het is gebruikelijk aan het einde van de inleiding een overzicht te
+% geven van de opbouw van de rest van de tekst. Deze sectie bevat al een aanzet
+% die je kan aanvullen/aanpassen in functie van je eigen tekst.
+
+De rest van deze bachelorproef is als volgt opgebouwd:
+
+In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
+
+In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
+
+% TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
+
+In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
