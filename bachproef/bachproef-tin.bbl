@@ -19,6 +19,93 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{Adman2015}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=c49cc9305ba0e5059f679f106a233fa2}{%
+           family={Adman},
+           familyi={A\bibinitperiod},
+           given={UI-Hasson},
+           giveni={U\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cff8ca44ee4488eff9f8f59079a945bd}{%
+           family={Muhammad},
+           familyi={M\bibinitperiod},
+           given={Zeshan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e813b7faee6db37146fb1311274dd861}{%
+           family={Faisal},
+           familyi={F\bibinitperiod},
+           given={Shafait},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ee0b336a4cccf4b03a034879af0a2e6b}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Liwicki},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3af03b3cf3847518c16ec8f75e43e20c}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Breuel},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5a6b512d3ff9f314bd3b8022d2cf09c}
+      \strng{fullhash}{27bf1331d22a97278758b5bfbef90b48}
+      \strng{bibnamehash}{27bf1331d22a97278758b5bfbef90b48}
+      \strng{authorbibnamehash}{27bf1331d22a97278758b5bfbef90b48}
+      \strng{authornamehash}{b5a6b512d3ff9f314bd3b8022d2cf09c}
+      \strng{authorfullhash}{27bf1331d22a97278758b5bfbef90b48}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Sequence Learning Approach for Multiple Script Identification}
+      \field{year}{2015}
+    \endentry
+    \entry{Ahmed2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=65b7ca4799971d4193ce1a83c8a102bc}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={El-Sawy},
+           giveni={E\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f17c63570cffe4d3f85dc182b8831205}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Loey},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ea6a8e1d79e669e6b077bdb3e4b8b0e3}{%
+           family={Hazem},
+           familyi={H\bibinitperiod},
+           given={EL-Bakry},
+           giveni={E\bibinithyphendelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dfb0269bc07cc11c352143d2372d77ce}
+      \strng{fullhash}{569b95c66237fe32335666a55a9bbc2f}
+      \strng{bibnamehash}{569b95c66237fe32335666a55a9bbc2f}
+      \strng{authorbibnamehash}{569b95c66237fe32335666a55a9bbc2f}
+      \strng{authornamehash}{dfb0269bc07cc11c352143d2372d77ce}
+      \strng{authorfullhash}{569b95c66237fe32335666a55a9bbc2f}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Benha University}
+      \field{title}{Arabic Handwritten Characters Recognition using Convolutional Neural Network}
+      \field{year}{2017}
+    \endentry
     \entry{Aiquan2012}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=e54142d8dcb3fd833ae0d6b892e1691a}{%
@@ -69,6 +156,182 @@
       \field{title}{Handwritten English Word Recognition based on Convolutional Neural Networks}
       \field{year}{2012}
     \endentry
+    \entry{Allan2015}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ea168977064d8b763a8065dd726c87a7}{%
+           family={Allan},
+           familyi={A\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea168977064d8b763a8065dd726c87a7}
+      \strng{fullhash}{ea168977064d8b763a8065dd726c87a7}
+      \strng{bibnamehash}{ea168977064d8b763a8065dd726c87a7}
+      \strng{authorbibnamehash}{ea168977064d8b763a8065dd726c87a7}
+      \strng{authornamehash}{ea168977064d8b763a8065dd726c87a7}
+      \strng{authorfullhash}{ea168977064d8b763a8065dd726c87a7}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Routledge Handbook of Linguistics}
+      \field{year}{2015}
+    \endentry
+    \entry{Baoguang2015}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae98910b2b500b7f48933f8df0e5902a}{%
+           family={Baoguang},
+           familyi={B\bibinitperiod},
+           given={Shia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d3353fa0b4fff3d12d478d493e8f5924}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Baia},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b7e7c38bf5a389f59317e5ddc1c0d4bb}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Yaoa},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8ecad2e295a9c23180e02c0835a05304}
+      \strng{fullhash}{6f039e1e6f3aae683f577b13ebc1aad4}
+      \strng{bibnamehash}{6f039e1e6f3aae683f577b13ebc1aad4}
+      \strng{authorbibnamehash}{6f039e1e6f3aae683f577b13ebc1aad4}
+      \strng{authornamehash}{8ecad2e295a9c23180e02c0835a05304}
+      \strng{authorfullhash}{6f039e1e6f3aae683f577b13ebc1aad4}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{School of Electronic Information and Communications, Huazhong University of Science and Technology}
+      \field{title}{Script Identiﬁcation in the Wild via Discriminative Convolutional Neural Network}
+      \field{year}{2015}
+    \endentry
+    \entry{Cheng-Lin2011}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=cfe7cd735d2eb265730e135e8abcd6b0}{%
+           family={Cheng-Lin},
+           familyi={C\bibinithyphendelim L\bibinitperiod},
+           given={Liu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=27e6f30b043e722c0b96fe8096ee8d0f}{%
+           family={Fei},
+           familyi={F\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c1ec9d29eeaf5b14e9e26f530915d311}{%
+           family={Da-Han},
+           familyi={D\bibinithyphendelim H\bibinitperiod},
+           given={Wang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dbad4b26d8c6ffbcba907f5ba0f4886e}{%
+           family={Qui-Feng},
+           familyi={Q\bibinithyphendelim F\bibinitperiod},
+           given={Wang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{226be523a3bb64372017906174c29530}
+      \strng{fullhash}{0ce5e3aa2ac6d7deeb253faabc8ba07f}
+      \strng{bibnamehash}{0ce5e3aa2ac6d7deeb253faabc8ba07f}
+      \strng{authorbibnamehash}{0ce5e3aa2ac6d7deeb253faabc8ba07f}
+      \strng{authornamehash}{226be523a3bb64372017906174c29530}
+      \strng{authorfullhash}{0ce5e3aa2ac6d7deeb253faabc8ba07f}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NLPR}
+      \field{title}{CASIA Online and Offline Chinese Handwriting Databases}
+      \field{year}{2011}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Dann2010}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=e5a2228c47701a79b85ba7cb50f7e979}{%
+           family={Dann},
+           familyi={D\bibinitperiod},
+           given={Ciresan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d532f1077a9be5546cf02a41cb73ab7b}{%
+           family={Euli},
+           familyi={E\bibinitperiod},
+           given={Meier},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0c2a422614ac88100c9d25fc115a98d7}{%
+           family={Luca},
+           familyi={L\bibinitperiod},
+           given={Gambardella},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8ef97a7b28f19bae7caf32d516027cdd}{%
+           family={Jürgen},
+           familyi={J\bibinitperiod},
+           given={Schmidhuber},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b50d079e7cde90cf3e42b734fccd6151}
+      \strng{fullhash}{8da1040b03463709ea039d1f5ec3d266}
+      \strng{bibnamehash}{8da1040b03463709ea039d1f5ec3d266}
+      \strng{authorbibnamehash}{8da1040b03463709ea039d1f5ec3d266}
+      \strng{authornamehash}{b50d079e7cde90cf3e42b734fccd6151}
+      \strng{authorfullhash}{8da1040b03463709ea039d1f5ec3d266}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{University of Lugano}
+      \field{title}{Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition}
+      \field{year}{2010}
+    \endentry
+    \entry{David}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9058ba86901095e8d48af7afa16216be}{%
+           family={David},
+           familyi={D\bibinitperiod},
+           given={R.\bibnamedelimi Olson},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9058ba86901095e8d48af7afa16216be}
+      \strng{fullhash}{9058ba86901095e8d48af7afa16216be}
+      \strng{bibnamehash}{9058ba86901095e8d48af7afa16216be}
+      \strng{authorbibnamehash}{9058ba86901095e8d48af7afa16216be}
+      \strng{authornamehash}{9058ba86901095e8d48af7afa16216be}
+      \strng{authorfullhash}{9058ba86901095e8d48af7afa16216be}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Encyclopedia Brittanica}
+      \field{title}{Writing}
+    \endentry
     \entry{Gelb1952}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=0097d63137ab0640224ada4299ac2938}{%
@@ -118,6 +381,116 @@
       \field{labeltitlesource}{title}
       \field{title}{A History of Deep Learning}
       \field{year}{2018}
+    \endentry
+    \entry{Guo2009}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8bba167e981ebc8b4dc159e75af57d23}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Xian\bibnamedelima Tan},
+           giveni={X\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=692abbbe6ba35720e04e9a69d35cc17a}{%
+           family={Christian},
+           familyi={C\bibinitperiod},
+           given={Viard-Gaudin},
+           giveni={V\bibinithyphendelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d69f144277af3392adc7bc3f8e031b57}{%
+           family={Alex},
+           familyi={A\bibinitperiod},
+           given={C.\bibnamedelimi Kot},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{109b4e5e5aef25d62c4bc22ff0c562fa}
+      \strng{fullhash}{46cb60db7d256028c29dfadfe6d3597f}
+      \strng{bibnamehash}{46cb60db7d256028c29dfadfe6d3597f}
+      \strng{authorbibnamehash}{46cb60db7d256028c29dfadfe6d3597f}
+      \strng{authornamehash}{109b4e5e5aef25d62c4bc22ff0c562fa}
+      \strng{authorfullhash}{46cb60db7d256028c29dfadfe6d3597f}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nanyang Technological University, Singapore}
+      \field{title}{Information Retrieval Model for Online Handwritten Script Identification}
+      \field{year}{2009}
+    \endentry
+    \entry{J.S.}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,uniquepart=base,hash=456f7dc210f01a1e850bb187554a0620}{%
+           family={J.\bibnamedelimi S.},
+           familyi={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Denker},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ea2b94c30365db6825dd397401879a12}{%
+           family={W.\bibnamedelimi R.},
+           familyi={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Gardner},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1371f206dc7884294cd17088a80467a8}{%
+           family={H.\bibnamedelimi P.},
+           familyi={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Graf},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3d7c1c04a9fee63aee009c4907e55caa}{%
+           family={D.},
+           familyi={D\bibinitperiod},
+           given={Henderson},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=00344ed72b29ee2ddeacbe8c066630eb}{%
+           family={R.\bibnamedelimi E.},
+           familyi={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Howard},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2924d3228c9af050f502bf6da5038af2}{%
+           family={W.},
+           familyi={W\bibinitperiod},
+           given={Hubbard},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e7b2fe65bc91d12366432bab29896b3f}{%
+           family={L.\bibnamedelimi D.},
+           familyi={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Jackel},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=395c27c188a537c5db366b120267f3ab}{%
+           family={H.\bibnamedelimi S.},
+           familyi={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Baird},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c3547b57856317cf2112b2a4deb85b41}{%
+           family={I.},
+           familyi={I\bibinitperiod},
+           given={Guyon},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79afda36a2e2d92fed802417f3dd1259}
+      \strng{fullhash}{81236f0e5941b2f00f159a908ff142ac}
+      \strng{bibnamehash}{7c058823a4aaf4dc549c4aad9547846d}
+      \strng{authorbibnamehash}{7c058823a4aaf4dc549c4aad9547846d}
+      \strng{authornamehash}{79afda36a2e2d92fed802417f3dd1259}
+      \strng{authorfullhash}{81236f0e5941b2f00f159a908ff142ac}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AT \&T Bell Laboratories}
+      \field{title}{Neural Network Recognizer For Hand-Written Zip Code Digits}
     \endentry
     \entry{Katja2018}{article}{}
       \name{author}{5}{}{%
@@ -194,6 +567,29 @@
       \field{journaltitle}{Dataversity}
       \field{title}{A Brief History of Machine Learning}
       \field{year}{2019}
+    \endentry
+    \entry{Koichi2010}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b3c761bccad8c9a2ec50b2b1a5ef3046}{%
+           family={Koichi},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3c761bccad8c9a2ec50b2b1a5ef3046}
+      \strng{fullhash}{b3c761bccad8c9a2ec50b2b1a5ef3046}
+      \strng{bibnamehash}{b3c761bccad8c9a2ec50b2b1a5ef3046}
+      \strng{authorbibnamehash}{b3c761bccad8c9a2ec50b2b1a5ef3046}
+      \strng{authornamehash}{b3c761bccad8c9a2ec50b2b1a5ef3046}
+      \strng{authorfullhash}{b3c761bccad8c9a2ec50b2b1a5ef3046}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tofugu}
+      \field{title}{The history of Kanji}
+      \field{year}{2010}
     \endentry
     \entry{Mahbubar2015}{article}{}
       \name{author}{4}{}{%
@@ -283,12 +679,12 @@
     \endentry
     \entry{Yann}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=10f14dd95822b983d924225a49f62b6f}{%
+        {{uniquename=1,uniquepart=given,hash=10f14dd95822b983d924225a49f62b6f}{%
            family={Yann},
            familyi={Y\bibinitperiod},
            given={Le\bibnamedelima Cun},
            giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{uniquename=0,uniquepart=base,hash=d80164a595da2414bd41020bf2cd6e37}{%
            family={Yoshua},
            familyi={Y\bibinitperiod},
@@ -305,10 +701,74 @@
       \field{sortinit}{Y}
       \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
       \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Word-Level Training of Handwritten Word Recognizer Based on Convolutional Neural Networks}
+    \endentry
+    \entry{Yann1997}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=10f14dd95822b983d924225a49f62b6f}{%
+           family={Yann},
+           familyi={Y\bibinitperiod},
+           given={LeCun},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=d80164a595da2414bd41020bf2cd6e37}{%
+           family={Yoshua},
+           familyi={Y\bibinitperiod},
+           given={Bengio},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{fullhash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{bibnamehash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{authorbibnamehash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{authornamehash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \strng{authorfullhash}{d9c8dc641ac08e8e9fb510ea797ce198}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Convolutional Networks for Images, Speech, and Time-Series}
+      \field{year}{1997}
+    \endentry
+    \entry{Yoshua}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d80164a595da2414bd41020bf2cd6e37}{%
+           family={Yoshua},
+           familyi={Y\bibinitperiod},
+           given={Bengio},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=10f14dd95822b983d924225a49f62b6f}{%
+           family={Yann},
+           familyi={Y\bibinitperiod},
+           given={Le\bibnamedelima Cun},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0444ce878492140cb17d6d4f19c2b24d}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={Donnie},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fabd66bc81549600dee754b02f8f438e}
+      \strng{fullhash}{175fc0ece9a85bab1ec65897450675af}
+      \strng{bibnamehash}{175fc0ece9a85bab1ec65897450675af}
+      \strng{authorbibnamehash}{175fc0ece9a85bab1ec65897450675af}
+      \strng{authornamehash}{fabd66bc81549600dee754b02f8f438e}
+      \strng{authorfullhash}{175fc0ece9a85bab1ec65897450675af}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Globally Trained Handwritten Word Recognizer using Spatial Representation, Convolutional Neural Networks and Hidden Markov Models}
     \endentry
   \enddatalist
   \missing{1959}

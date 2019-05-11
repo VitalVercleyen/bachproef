@@ -21,7 +21,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Convolutional Neural Network}{23}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}convolutional laag}{23}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.1}convolutionele laag}{23}{subsection.2.4.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}pooling laag}{25}{subsection.2.4.2}% 
 \defcounter {refsection}{0}\relax 
@@ -31,7 +31,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{29}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{31}{chapter.4}% 
+\contentsline {section}{\numberline {3.1}Data verzameling}{29}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{33}{appendix*.6}% 
+\contentsline {section}{\numberline {3.2}Data voorbereiding}{30}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Het Convolutioneel Neuraal Netwerk}{31}{section.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusie}{35}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{37}{appendix*.6}% 
 \contentsfinish 

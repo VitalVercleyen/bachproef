@@ -6,3 +6,6 @@ https://www.bogotobogo.com/python/scikit-learn/Single-Layer-Neural-Network-Adapt
 
 max-pooling
 https://computersciencewiki.org/index.php/Max-pooling_/_Pooling
+
+relu
+https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-1b-relu-layer

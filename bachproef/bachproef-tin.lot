@@ -7,5 +7,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Bash script voor alle data in \IeC {\'e}\IeC {\'e}n map te verplaatsen. }}{30}{table.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Python code voor de manipulatie van de gebruikte datasets (CATEGORIES zijn de gebruikte schriftsystemen) }}{32}{table.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Het opslaan van de verwerkte data in python door middel van pickle }}{32}{table.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Het inladen en normaliseren van de data en het opsplitsen van de data}}{33}{table.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Een eerste convolutioneele laag en een pooling laag}}{34}{table.3.5}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

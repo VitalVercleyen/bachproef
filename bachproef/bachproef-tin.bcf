@@ -2148,19 +2148,34 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Gelb1952</bcf:citekey>
-    <bcf:citekey order="2">Rickandie2016</bcf:citekey>
-    <bcf:citekey order="3">Katja2018</bcf:citekey>
-    <bcf:citekey order="4">Arthur Samuel</bcf:citekey>
-    <bcf:citekey order="4">1959</bcf:citekey>
-    <bcf:citekey order="5">KeithD.2019</bcf:citekey>
-    <bcf:citekey order="6">Goff2018</bcf:citekey>
-    <bcf:citekey order="7">Aiquan2012</bcf:citekey>
-    <bcf:citekey order="8">Weixin</bcf:citekey>
-    <bcf:citekey order="9">Mahbubar2015</bcf:citekey>
-    <bcf:citekey order="10">Weixin</bcf:citekey>
-    <bcf:citekey order="11">Aiquan2012</bcf:citekey>
-    <bcf:citekey order="12">Mahbubar2015</bcf:citekey>
+    <bcf:citekey order="2">David</bcf:citekey>
+    <bcf:citekey order="3">Allan2015</bcf:citekey>
+    <bcf:citekey order="4">Rickandie2016</bcf:citekey>
+    <bcf:citekey order="5">Katja2018</bcf:citekey>
+    <bcf:citekey order="6">Arthur Samuel</bcf:citekey>
+    <bcf:citekey order="6">1959</bcf:citekey>
+    <bcf:citekey order="7">KeithD.2019</bcf:citekey>
+    <bcf:citekey order="8">Dann2010</bcf:citekey>
+    <bcf:citekey order="9">Goff2018</bcf:citekey>
+    <bcf:citekey order="10">Yann1997</bcf:citekey>
+    <bcf:citekey order="11">J.S.</bcf:citekey>
+    <bcf:citekey order="12">Yoshua</bcf:citekey>
     <bcf:citekey order="13">Yann</bcf:citekey>
+    <bcf:citekey order="14">Aiquan2012</bcf:citekey>
+    <bcf:citekey order="15">Weixin</bcf:citekey>
+    <bcf:citekey order="16">Mahbubar2015</bcf:citekey>
+    <bcf:citekey order="17">Cheng-Lin2011</bcf:citekey>
+    <bcf:citekey order="18">Weixin</bcf:citekey>
+    <bcf:citekey order="19">Aiquan2012</bcf:citekey>
+    <bcf:citekey order="20">Mahbubar2015</bcf:citekey>
+    <bcf:citekey order="21">Ahmed2017</bcf:citekey>
+    <bcf:citekey order="22">Yann</bcf:citekey>
+    <bcf:citekey order="23">Adman2015</bcf:citekey>
+    <bcf:citekey order="24">Baoguang2015</bcf:citekey>
+    <bcf:citekey order="25">Guo2009</bcf:citekey>
+    <bcf:citekey order="26">Koichi2010</bcf:citekey>
+    <bcf:citekey order="27">Baoguang2015</bcf:citekey>
+    <bcf:citekey order="28">Ahmed2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
