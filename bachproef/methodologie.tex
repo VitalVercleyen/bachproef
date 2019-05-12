@@ -219,8 +219,51 @@ model.add(
     \caption{Een eerste convolutioneele laag en een pooling laag} }\label{table:FirstLayers}\end{table}
 
 Nadat een convolutionele laag is toegevoegd aan het model wordt er een pooling laag achter geplaatst.
-Bij de pooling laag zijn de verwachte parameters de afmeting van de filter.
-Een afmeting van 2x2 werd meegegeven, De gekozen pooling laag is de max pooling laag.
+Bij de pooling laag zijn de verwachte parameters de afmeting van de filters.
+Alsook werd deze soort laag toegevoegd aan het neuraal netwerk, 
+de gekozen soort pooling laag was een max pooling laag.
+Een afmeting van 2x2 werd meegegeven aan de laag.
+
+Een volgende laag dat werd toegevoegd was een convolutionele laag,
+een aantal van 64 filters werd gekozen voor deze laag en een afmeting van 7x7.
+Het doel van deze laag was het herkennen van grotere patronen met weinig detail, aangezien de vorige laag simpele patronen zou herkennen kon deze laag deze ook gebruiken en zodanig een beter inzicht hebben op de vorm en complexiteit van de karakters.
+Net zoals bij de vorige convolutionele laag werd als activatiefunctie ook de Relu functie gekozen.
+Vervolgens werd er een max-pooling laag toegevoegd met een afmeting van 2x2 voor de filters.
+
+Een derde en laatste convolutionele laag werd nog toegevoegd aan het model met een aantal van 128 filters en een afmeting van 3x3 voor de filters.
+Aangezien de afmeting van de filters de kleinst mogelijke waarde bevat staat de laag in voor het herkennen van de details in de karakters.
+Deze laag is een belangrijke laag aangezien dit de patronen herkend die eigen zijn aan het schriftsysteem.
+Schriftsystemen kunnen onderscheiden worden aan de hand van de kleine details die steeds herkenbaar zijn in de karakters van het schriftsysteem.
+Daarom werd een hoog aantal filters meegegeven aan deze laag, zodanig dat de vele details eigen aan de karakters en specifiek aan het schriftsysteem kunnen herkend worden.
+Uiteindelijk werd er nog een max-pooling laag geplaatst in het model met een afmeting van 2x2 voor de filters.
+
+De convolutionele lagen staan in voor het herkennen van de karakteristieken en patronen, vooraleer er een schatting kan verkregen worden van het toebehorende schriftsysteem moeten er nog enkele normale lagen worden toegevoegd.
+Er werd gewenst om de uitvoer van de convolutionele lagen in te voeren in normale lagen.
+Een convolutioneel neuraal netwerk werkt met invoer in de vorm van 2-dimensionale lijsten.
+Een normaal neuraal netwerk daarentegen kan hier niet mee werken, vooraleer de uitvoer van een convolutionele laag in een normale laag kan worden ingevoerd moeten de matrices, 2-deminsionale lijsten, omgevormd worden naar lijsten met 1 dimensie.
+Voor deze operatie bestaat er een specifieke laag, de flatten laag.
+Na de convolutionele lagen werd zo een dergelijke laag toegevoegd.
+
+Bij een normale laag of dense laag worden er ook een aantal parameters gevraagd, waarvan de eerste het aantal neuronen verwacht en de tweede de activatiefunctie verwacht.
+
+Een eerste normale laag werd toegevoegd met een aantal van 128 neuronen en als activatiefunctie werd de ReLu functie gekozen.
+Bij deze laag werd er een hoog aantal neuronen gekozen aangezien het in staat voor vele karakteristieken en patronen te linken met het toebehorende schriftsysteem.
+
+Een tweede normale laag werd vervolgens toegevoegd aan het model met een aantal van 64 neuronen en als activatiefunctie werd de ReLu functie gekozen.
+Deze laag kreeg een normaal aantal neuronen voor de laatste schattingen uit te voeren op de data.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 

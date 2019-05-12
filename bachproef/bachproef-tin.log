@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.26)  11 MAY 2019 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.26)  12 MAY 2019 11:02
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2041,11 +2041,11 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-) (conclusie.tex [34 <./img/ReLu.png>]
-Hoofdstuk 4.
-) [35
+[34 <./img/ReLu.png>]) (conclusie.tex [35] [36
 
-] [36
+]
+Hoofdstuk 4.
+) [37] [38
 
 ]
 
@@ -2061,7 +2061,7 @@ l.119 \printbibliography[heading=bibintoc]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[37] [38]
+[39] [40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
  (bachproef-tin.aux)
@@ -2072,8 +2072,8 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40365 strings out of 492946
- 757100 string characters out of 3125378
+ 40367 strings out of 492946
+ 757114 string characters out of 3125378
  1364441 words of memory out of 3000000
  43349 multiletter control sequences out of 15000+200000
  588004 words of font info for 187 fonts, out of 3000000 for 9000
@@ -2090,9 +2090,9 @@ N80/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/User
 s/VVRBN80/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/VVRBN80/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on bachproef-tin.pdf (40 pages, 730714 bytes).
+Output written on bachproef-tin.pdf (42 pages, 734328 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 134 named destinations out of 1000 (max. 500000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
  30416 words of extra memory for PDF output out of 35830 (max. 10000000)
 

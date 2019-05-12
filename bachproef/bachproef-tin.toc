@@ -37,7 +37,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Het Convolutioneel Neuraal Netwerk}{31}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{35}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Conclusie}{37}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{37}{appendix*.6}% 
+\contentsline {chapter}{Bibliografie}{39}{appendix*.6}% 
 \contentsfinish 
