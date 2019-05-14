@@ -17,7 +17,7 @@ Dit onderzoek stelt een werkwijze voor om handgeschreven karakters te classifice
 De gebruikte werkwijze bestaat uit verschillende fasen en komen in dit hoofdstuk aan bod.
 
 
-\section{Data verzameling}
+\section{Dataverzameling}
 
 De eerste stap in de werkwijze van dit onderzoek was het nagaan welke datasets nodig waren om het model te trainen.
 Het doel van het model is om handgeschreven karakters te classificeren per schriftsysteem, hiervoor waren verschillende datasets van meerdere schriftsystemen nodig, deze bestaande uit afbeelding van handgeschreven karakters.
@@ -47,7 +47,7 @@ Voor de laatste plaats werd er een syllabisch schrift gekozen.
 Het gekozen schrift was het Arabisch, een gekend lettergrepenschrift dat in vooral in de Arabische wereld wordt gebruikt.
 Een dataset in het bezit van \autocite{Ahmed2017}, bestaande uit een groot aantal Arabische karakters.
 
-\section{Data voorbereiding}
+\section{Datavoorbereiding}
 
 Twee van de drie gekozen datasets zijn bedoeld voor het herkennen van de karakters onder het schriftsysteem van de dataset.
 Deze datasets bestonden daardoor uit een structuur van mappen waarbij elke map een specifiek karakter voorstelde uit het schriftsysteem, in elke map zaten vervolgens alle afbeeldingen toebehorend aan dat karakter.
@@ -216,7 +216,8 @@ model.add(
         \end{lstlisting}
         \\ \hline
     \end{tabular}
-    \caption{Een eerste convolutioneele laag en een pooling laag} }\label{table:FirstLayers}\end{table}
+    \caption{Een eerste convolutioneele laag en een pooling laag} }\label{table:FirstLayers}
+\end{table}
 
 Nadat een convolutionele laag is toegevoegd aan het model wordt er een pooling laag achter geplaatst.
 Bij de pooling laag zijn de verwachte parameters de afmeting van de filters.
@@ -252,10 +253,114 @@ Bij deze laag werd er een hoog aantal neuronen gekozen aangezien het in staat vo
 Een tweede normale laag werd vervolgens toegevoegd aan het model met een aantal van 64 neuronen en als activatiefunctie werd de ReLu functie gekozen.
 Deze laag kreeg een normaal aantal neuronen voor de laatste schattingen uit te voeren op de data.
 
+Een probleem dat zich kan vormen in een neuraal netwerk is overfitting,
+overfitting is een fenomeen dat zich voor kan doen wanneer een neuraal netwerk zich te veel focust op een specifieke dataset.
+Het model zal een goede voorspelling maken op data uit de meegegeven dataset maar wanneer data wordt meegegeven dat het model nog nooit gezien heeft zal het een veel slechtere voorspelling teruggeven.
+Om dit probleem tegen te gaan kan er een extra laag worden toegevoegd genaamd de dropout laag.
+Deze laag doet het volgende, wanneer een model wordt getraind heeft een neuron een kans om gedeactiveerd te worden.
+Dit wil zeggen dat de taak die het neuron op zich heeft niet meer zal uitvoeren.
+Dit zorgt voor 'noise', irregulariteit in trainingsproces.
+Wanneer een neuron gedeactiveerd wordt neemt een ander neuron de taak op van het inactieve neuron, hierdoor zal het model meer robuuste karakteristieken kunnen aanleren.
+Een dropout laag verwacht een enkele parameter; de kans dat een neuron gedeactiveerd kan worden.
+Aan het netwerk werd een dropout laag toegevoegd met een waarde van 0.1 voor de kans.
+
+De laatste laag van een neuraal netwerk is steeds de uitvoerlaag.
+Als uitvoerlaag bij het netwerk werd er een normale laag toegevoegd met 3 neuronen, een neuron per schriftsysteem.
+Voor de activatiefunctie werd de softmax functie gekozen, de softmax functie heeft aan elk neuron een probabiliteit voor elk schriftsysteem.
+
+Wanneer alle lagen waren toegevoegd werd het model gecompileerd en werden er nog 3 parameters meegegeven.
+Een daarvan was de loss functie, dit is de functie die de loss berekend van bij het trainen van een model.
+De loss is het aantal fouten die gemaakt worden bij het trainen, het type loss functie die gebruikt wordt hangt af van welk probleem er tracht opgelost te worden met het ontworpen neurale netwerk.
+Hier werd als loss functie de 'sparce categorical crossentropy' gekozen, dit aangezien de schriftsystemen verschillende klassen of categorieën voorstellen.\\
+Een volgende parameter die gevraagd werd is de optimalisatie functie, deze functie zorgt ervoor dat de gemaakte loss bij een trainingsproces zo laag mogelijk is, dit doet het de leerbare parameters aan te passen in het neurale netwerk.\\
+De laatste parameter die wordt verwacht is de 'metrics', dit zijn waarden die een ontwerper van een model wil dat ze worden weergegeven bij het trainen van het model. ( Tabel \ref{table:Compile})
+
+
+\begin{table}[!htbp]
+    \begin{tabular}{|l|}
+        \hline
+        \begin{lstlisting}
+        model.compile(loss='sparse_categorical_crossentropy',
+                      optimizer='adam',
+                      metrics=['accuracy'])
+        
+        \end{lstlisting}
+        \\ \hline
+    \end{tabular}
+    \caption{Het compileren van het model met de nodige instellingen} }\label{table:Compile}
+\end{table}
+
+\section{Trainen en testen}
+
+Nadat het model gecompileerd was kon er gestart worden met het trainen van het model, hiervoor werd ook tensorflow gebruikt.
+Vooraleer het model werd aangemaakt en de nodige lagen waren toegevoegd werd de lijst van data en labels opgesplitst in trainingsdata en trainingslabels en in testdata en testlabels.
+Bij het trainen van een model worden de trainingsdata en de trainingslabels meegegeven.
+Vervolgens wordt een batch grootte meegegeven die bepaald hoeveel data het moet testen per keer, het aantal generaties en een splitsing van de data waarbij het opgesplitste deel gebruikt wordt voor validatie.
+De validatie zorgt voor een goedkeuring van de data die getraind wordt.
+Hier bij het model kreeg de batch grootte een waarde van 32, het werd getraind over 5 generaties en een derde van de data werd gebruikt voor validatie. ( Tabel \ref{table:Training})
 
 
 
+\begin{table}[!htbp]
+    \begin{tabular}{|l|}
+        \hline
+        \begin{lstlisting}
+       model.fit(X_train, y_train, batch_size=32,
+                 epochs=5,validation_split=0.3)
+        \end{lstlisting}
+        \\ \hline
+    \end{tabular}
+    \caption{Het trainen van het model met de nodige parameters} }\label{table:Training}
+\end{table}
 
+\section{Resultaten}
+
+Wanneer het model zijn generaties had voltooid kon er gekeken worden naar de accuraatheid en de loss van elke generatie.
+De eerste generatie had al een hoge accuraatheid met een waarde van 0.9703 en een lage loss met een waarde van 0.0757.
+Bij elke generatie verhoogde de accuraatheid en verlaagde de loss, zoals verwacht.
+De laatste generatie had een accuraatheid met een waarde van 0.9993 en een loss met een waarde van 0.0031.
+Dit is een hoge accuraatheid en zal zorgen voor een vloeiend onderscheid bij het onderscheiden van de drie schriftsystemen.
+Uiteindelijk werd een laatste evaluatie uitgevoerd met de ongeziene testdata en testlabels.
+Ook hier was er een hoge accuraatheid van 0.9996 en een lage loss. ( Figuur \ref{tab:testResults})
+
+\begin{figure}
+    
+    
+    \includegraphics[width=\linewidth]{img/testResults.png}
+    
+    \caption{Resultaten van de test met weergegeven accuraatheid en loss}
+    \label{tab:testResults}
+    
+\end{figure}
+
+\section{Gebruik}
+
+Een aantal ongekende afbeeldingen werden vervolgens gebruikt met als doel een voorbeeld te geven hoe het gebruikt zou worden in de praktijk.
+Een ongekende afbeelding wordt opgeslagen en vervolgens in het model geplaatst.
+Eerst en vooral wordt de afbeelding gevormd naar de verwachte afmetingen.
+Het model berekent welk schriftsysteem het best past bij de afbeelding en hieruit haalt een script de hoogste waarde uit de lijst van percentages die verkregen zijn vanuit de uitvoerlaag van het model.
+Uiteindelijk kijkt het gebruikte script naar de overeenkomende waarde met de lijst van schriftsystemen en heeft dit weer.
+De resultaten zijn steeds correct, bij elke afbeelding van een karakter uit een gebruikt schriftsysteem voorspelt het model het juiste schriftsysteem. (Figuur \ref{tab:examples} )
+
+Het gebruik van deze software zou het meest efficiënt zijn met het gebruik van een bijkomende applicatie op een smartphone.
+Bij de volgende probleemstelling wordt er voorop vastgesteld dat er een volledig model is ontwikkeld dat in staat is om een groot aantal veel gebruikte schriftsystemen van elkaar te onderscheiden. \\
+Stel nu dat een geleerde in de forensische letterkunde een opdracht krijgt waarbij hij/zij een document dat geschreven is in een ongekend schriftsysteem moet herkennen en lokaliseren. Vooraleer de letterkundige uit eigen ervaring tracht het schriftsysteem te lokaliseren gebruikt hij eerst de mobiele applicatie op zijn smartphone, hij neemt een foto van een karakter in het document en krijgt vervolgens een voorspeld resultaat. \\
+Hiervoor moet de software niet volledig accuraat zijn, aangezien het een ongekend schriftsysteem is zal het ook niet veel gebruikt zijn en bestaat de kans dat het niet aangeleerd is aan het model.
+Maar een ongekend schriftsysteem dat niet veel gebruikt wordt stamt vaak af van een ander schriftsysteem waarbij de kans wel bestaat dat het aangeleerd is aan het model. \\
+Wanneer de mobiele applicatie het schriftsysteem teruggeeft dat veel eigenschappen deelt met het ongekende schriftsysteem heeft dit al een goede start aan de letterkundige voor het lokaliseren van het ongekende schrift.
+
+Wanneer er gewerkt zou worden met volledige woorden of paragrafen bestaande uit karakters uit een schriftsysteem zouden alle karakters herkend kunnen worden en een pluspunt geven aan het door het model voorspelde schriftsysteem.
+Als er voor alle karakters een voorspelling is gemaakt zou het schriftsysteem met de meeste pluspunten gekozen worden als resultaat.
+
+ 
+\begin{figure}
+    
+    
+    \includegraphics[width=\linewidth]{img/voorbeelden.png}
+    \caption{Voorbeelden van het model in de praktijk}
+    \label{tab:examples}
+
+\end{figure}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.26)  12 MAY 2019 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.26)  14 MAY 2019 11:32
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1875,13 +1875,13 @@ Underfull \vbox (badness 1454) has occurred while \output is active []
 
  [19]
 [20]
-<img/Lineair_onderscheidbaar.png, id=220, 450.483pt x 210.18526pt>
+<img/Lineair_onderscheidbaar.png, id=241, 450.483pt x 210.18526pt>
 File: img/Lineair_onderscheidbaar.png Graphic file (type png)
 <use img/Lineair_onderscheidbaar.png>
 Package pdftex.def Info: img/Lineair_onderscheidbaar.png  used on input line 13
 1.
 (pdftex.def)             Requested size: 426.79135pt x 199.13605pt.
-<img/Perceptron.png, id=221, 434.22224pt x 190.91325pt>
+<img/Perceptron.png, id=242, 434.22224pt x 190.91325pt>
 File: img/Perceptron.png Graphic file (type png)
 <use img/Perceptron.png>
 Package pdftex.def Info: img/Perceptron.png  used on input line 141.
@@ -1900,7 +1900,7 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
-<img/convolution.png, id=232, 680.5425pt x 463.7325pt>
+<img/convolution.png, id=253, 680.5425pt x 463.7325pt>
 File: img/convolution.png Graphic file (type png)
 <use img/convolution.png>
 Package pdftex.def Info: img/convolution.png  used on input line 184.
@@ -1909,7 +1909,7 @@ Package pdftex.def Info: img/convolution.png  used on input line 184.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <./img/convolution.png (PNG copy)>]
-<img/pooling.png, id=246, 164.25pt x 68.547pt>
+<img/pooling.png, id=267, 164.25pt x 68.547pt>
 File: img/pooling.png Graphic file (type png)
 <use img/pooling.png>
 Package pdftex.def Info: img/pooling.png  used on input line 231.
@@ -1978,7 +1978,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-<img/Afmetingen.png, id=303, 437.83575pt x 194.52675pt>
+<img/Afmetingen.png, id=324, 437.83575pt x 194.52675pt>
 File: img/Afmetingen.png Graphic file (type png)
 <use img/Afmetingen.png>
 Package pdftex.def Info: img/Afmetingen.png  used on input line 80.
@@ -2015,7 +2015,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<img/ReLu.png, id=346, 491.436pt x 131.2905pt>
+<img/ReLu.png, id=367, 491.436pt x 131.2905pt>
 File: img/ReLu.png Graphic file (type png)
 <use img/ReLu.png>
 Package pdftex.def Info: img/ReLu.png  used on input line 198.
@@ -2033,21 +2033,69 @@ Overfull \hbox (60.4135pt too wide) in paragraph at lines 208--219
 ! Extra }, or forgotten \endgroup.
 \@endfloatbox ...pagefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.219 ...ag} }\label{table:FirstLayers}\end{table}
-                                                  
+l.220 \end{table}
+                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[34 <./img/ReLu.png>]) (conclusie.tex [35] [36
+[34 <./img/ReLu.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [35]
+Overfull \hbox (12.41312pt too wide) in paragraph at lines 283--284
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (24.41313pt too wide) in paragraph at lines 280--290
+[][] 
+ []
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.291 \end{table}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.314 \end{table}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+<img/testResults.png, id=400, 563.10374pt x 45.771pt>
+File: img/testResults.png Graphic file (type png)
+<use img/testResults.png>
+Package pdftex.def Info: img/testResults.png  used on input line 329.
+(pdftex.def)             Requested size: 426.79135pt x 34.69131pt.
+[36]
+<img/voorbeelden.png, id=413, 598.6365pt x 224.037pt>
+File: img/voorbeelden.png Graphic file (type png)
+<use img/voorbeelden.png>
+Package pdftex.def Info: img/voorbeelden.png  used on input line 359.
+(pdftex.def)             Requested size: 426.79135pt x 159.72714pt.
+) (conclusie.tex [37 <./img/testResults.png>] [38 <./img/voorbeelden.png>]
 Hoofdstuk 4.
-) [37] [38
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39
+
+])
+[40]
 
 ! Package inputenc Error: Unicode character ﬁ (U+FB01)
 (inputenc)                not set up for use with LaTeX.
@@ -2061,7 +2109,9 @@ l.119 \printbibliography[heading=bibintoc]
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[39] [40]
+[41
+
+] [42]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
  (bachproef-tin.aux)
@@ -2072,10 +2122,10 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40367 strings out of 492946
- 757114 string characters out of 3125378
- 1364441 words of memory out of 3000000
- 43349 multiletter control sequences out of 15000+200000
+ 40400 strings out of 492946
+ 757599 string characters out of 3125378
+ 1364697 words of memory out of 3000000
+ 43364 multiletter control sequences out of 15000+200000
  588004 words of font info for 187 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,67p,865b,3844s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2090,9 +2140,9 @@ N80/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/User
 s/VVRBN80/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/VVRBN80/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on bachproef-tin.pdf (42 pages, 734328 bytes).
+Output written on bachproef-tin.pdf (44 pages, 797076 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 30416 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 30450 words of extra memory for PDF output out of 35830 (max. 10000000)
 
