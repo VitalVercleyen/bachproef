@@ -21,9 +21,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces ReLu functie uitgevoerd op een afbeelding.}}{34}{figure.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Resultaten van de test met weergegeven accuraatheid en loss}}{37}{figure.3.3}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Voorbeelden van het model in de praktijk}}{38}{figure.3.4}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Links een voorbeeld uit de gebruikte dataset voor het Devanagari, rechts het bedoelde karakter.}}{41}{figure.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Resultaten van de test met weergegeven accuraatheid en loss}}{41}{figure.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Voorbeelden van het model in de praktijk}}{42}{figure.4.3}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

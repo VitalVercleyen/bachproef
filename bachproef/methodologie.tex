@@ -11,7 +11,7 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-In dit hoofdstuk zal de gebruikte werkwijze van het onderzoek diepgaand uitgelegd worden met de nodige verantwoording.
+In dit hoofdstuk zal besproken de voorbereiding op de experimenten besproken worden.
 
 Dit onderzoek stelt een werkwijze voor om handgeschreven karakters te classificeren per schriftsysteem aan de hand van een convolutioneel neuraal netwerk.
 De gebruikte werkwijze bestaat uit verschillende fasen en die komen in dit hoofdstuk aan bod.
@@ -69,7 +69,7 @@ find . -mindepth 2 -type f -print -exec mv {} . \;
 
 Wanneer al de data voldoende was gestructureerd was het klaar voor de manipulaties die nodig waren voor gebruik.
 
-De datamanipulatie werd gedaan in python, hier waren verschillende libraries voor gebruikt, genaamd numpy, matplotlib, os, tqdm en cv2.
+De datamanipulatie werd gedaan in Python, hier waren verschillende libraries voor gebruikt, genaamd numpy, matplotlib, os, tqdm en cv2.
 Wanneer een model getraind wordt aan de hand van een groot aantal verschillende afbeeldingen moeten de afbeeldingen allen dezelfde afmetingen bevatten, de keuze voor de hoogte en breedte had invloed op het detailgehalte van de afbeelding, wanneer een lage waarde werd gekozen was er weinig detail te zien, bij een grote waarde was er meer detail te zien.
 Voor de afmeting van de afbeeldingen die gebruikt werden bij het model werd een waarde van 60 genomen. (Figuur \ref{tab:afmetingen})
 
@@ -135,8 +135,10 @@ pickle_out.close()
         \end{lstlisting}
         \\ \hline
     \end{tabular}
-    \caption{Het opslaan van de verwerkte data in python door middel van pickle }\label{table:DataSave}
+    \caption{Het opslaan van de verwerkte data in Python door middel van pickle }\label{table:DataSave}
 \end{table}
+
+
 
 \section{Het Convolutioneel Neuraal Netwerk}
 
@@ -146,8 +148,8 @@ Er wordt gekeken of er enige aanpassingen nodig zijn voor het verbeteren van de 
 Uiteindelijk wordt er een model ontwikkeld dat het best past bij het classificatieprobleem.
 In dit hoofdstuk wordt het model besproken dat het best past bij het onderzoek, alsook de verantwoording voor de structuur van het model.
 
-Het model werd ontworpen in python. Voor de implementatie van alle lagen, het laten trainen en testen met de voorbereide data werd tensorflow gebruikt, een open source platform die zich specialiseert in machine learning.
-In python werd de library ingeladen zodat de nodige lagen voor een convolutioneel neuraal netwerk gebruikt konden worden.
+Het model werd ontworpen in Python. Voor de implementatie van alle lagen, het laten trainen en testen met de voorbereide data werd tensorflow gebruikt, een open source platform die zich specialiseert in machine learning.
+In Python werd de library ingeladen zodat de nodige lagen voor een convolutioneel neuraal netwerk gebruikt konden worden.
 
 Aangezien het neuraal netwerk waarden inleest tussen 0 en 1 werden de waarden in de lijst van de lijst van matrices genormaliseerd.
 Vervolgens werd de data opgesplitst in traindata waarop het model werd getraind en testdata waarop de accuraatheid van het model werd getest.  \ref{table:DataNormalisition}
@@ -290,7 +292,9 @@ De laatste parameter die wordt verwacht is de 'metrics', dit zijn waarden die ee
     \caption{Het compileren van het model met de nodige instellingen} \label{table:Compile}
 \end{table}
 
-\section{Trainen en testen}
+
+
+\section{Trainen van het model}
 
 Nadat het model gecompileerd was kon er gestart worden met het trainen van het model, hiervoor werd ook tensorflow gebruikt.
 Vooraleer het model werd aangemaakt en de nodige lagen waren toegevoegd werd de lijst van data en labels opgesplitst in trainingsdata en trainingslabels en in testdata en testlabels.
@@ -299,29 +303,135 @@ Vervolgens wordt een batch grootte meegegeven die bepaalt hoeveel data het moet 
 De validatie zorgt voor een goedkeuring van de data die getraind wordt.
 Hier bij het model kreeg de batch grootte een waarde van 32, het werd getraind over 5 generaties en een derde van de data werd gebruikt voor validatie. ( Tabel \ref{table:Training})
 
+Wanneer het model zijn generaties had voltooid kon gekeken worden naar de accuraatheid en de loss van elke generatie.
+De eerste generatie had al een hoge accuraatheid met een waarde van 0.9703 en een lage loss met een waarde van 0.0757.
+Bij elke generatie verhoogde de accuraatheid en verlaagde de loss, zoals verwacht.
+De laatste generatie had een accuraatheid met een waarde van 0.9993 en een loss met een waarde van 0.0031.
+Dit is een hoge accuraatheid en zal zorgen voor een vloeiend onderscheid bij het onderscheiden van de drie schriftsystemen.
+
+
+\section{Gebruik}
+
+Het gebruik van deze software zou het meest efficiënt zijn met het gebruik van een bijkomende applicatie op een smartphone.
+Bij de volgende probleemstelling wordt voorop vastgesteld dat een volledig model is ontwikkeld dat in staat is om een groot aantal veel gebruikte schriftsystemen van elkaar te onderscheiden. \\
+Stel nu dat een geleerde in de forensische letterkunde een opdracht krijgt waarbij hij/zij een document dat geschreven is in een ongekend schriftsysteem moet herkennen en lokaliseren. Vooraleer de letterkundige uit eigen ervaring tracht het schriftsysteem te lokaliseren gebruikt hij eerst de mobiele applicatie op zijn smartphone, hij neemt een foto van een karakter in het document en krijgt vervolgens een voorspeld resultaat. \\
+Hiervoor moet de software niet volledig accuraat zijn, aangezien het een ongekend schriftsysteem is zal het ook niet veel gebruikt zijn en bestaat de kans dat het niet aangeleerd is aan het model.
+Maar een ongekend schriftsysteem dat niet veel gebruikt wordt stamt vaak af van een ander schriftsysteem waarbij de kans wel bestaat dat het aangeleerd is aan het model. \\
+Wanneer de mobiele applicatie het schriftsysteem teruggeeft dat veel eigenschappen deelt met het ongekende schriftsysteem, geeft dit al een goede start aan de letterkundige voor het lokaliseren van het ongekende schrift.
+
+Wanneer gewerkt zou worden met volledige woorden of paragrafen bestaande uit karakters uit een schriftsysteem zouden alle karakters herkend kunnen worden en een pluspunt geven aan het door het model voorspelde schriftsysteem.
+Als voor alle karakters een voorspelling is gemaakt zou het schriftsysteem met de meeste pluspunten gekozen worden als resultaat.
+
+\section{Opstellen experimenten}
+
+Nu het neuraal netwerk is ontworpen worden enkele experimenten besproken die zullen worden uitgevoerd.
+
+Het eerste experiment is het testen van het model, een lijst van ongeziene data zal worden meegegeven aan het model, het model zal vervolgens het best passende schriftsysteem voorspellen en dit vergelijken met de juiste label.
+Uiteindelijk zal worden gekeken naar de accuraatheid van de voorspelde waarden.
+Er wordt verwacht dat een hoge accuraatheid zal bereikt worden.
+
+Een volgend experiment dat zal worden uitgevoerd is het gebruik van het model bij ongeziene alleenstaande karakters. Dit zal ook aantonen hoe de software kan gebruikt worden in de praktijk.
+Een afbeelding van zo'n karakter zal worden ingevoerd in het neuraal netwerk en zal vervolgens het toebehorende schriftsystemen trachten te voorspellen.
+Dit zal gebeuren met een karakter uit het Arabisch schrift, een karakter uit het Kanji schrift en een karakter uit het Latijns schrift.
+De gebruikte afbeeldingen van de karakters zijn zelf geschreven of gevonden op het internet.
+Er wordt verwacht dat het model het correcte schriftsysteem zal voorspellen voor de drie aangeleerde systemen.
+
+Het laatste experiment is het implementeren van een vierde schriftsysteem.
+Het vierde schriftsysteem dat hierbij zal gebruikt worden is het Devanagari, een schrift gebruikt in Indië en veel gelijkend op het Kanji aangezien het met dezelfde soort hoeken, lijnen en vormen werkt.
+Net zoals bij de drie andere schriftsysteem werd er data verzameld die voldoet aan de vooropgestelde eisen, deze data werd vervolgens verwerkt zodat het kan worden aangeleerd aan het neuraal netwerk.
+Er wordt verwacht dat het model niet zeer accuraat zal scoren op het herkennen van het Devanagari aangezien dit zeer gelijkaardig is met het Kanji.
+
 
 
 \begin{table}[!htbp]
     \begin{tabular}{|l|}
         \hline
         \begin{lstlisting}
-       model.fit(X_train, y_train, batch_size=32,
-                 epochs=5,validation_split=0.3)
+        model.fit(X_train, y_train, batch_size=32,
+        epochs=5,validation_split=0.3)
         \end{lstlisting}
         \\ \hline
     \end{tabular}
     \caption{Het trainen van het model met de nodige parameters} \label{table:Training}
 \end{table}
 
-\section{Resultaten}
+\chapter{Experimenten}
 
-Wanneer het model zijn generaties had voltooid kon gekeken worden naar de accuraatheid en de loss van elke generatie.
-De eerste generatie had al een hoge accuraatheid met een waarde van 0.9703 en een lage loss met een waarde van 0.0757.
-Bij elke generatie verhoogde de accuraatheid en verlaagde de loss, zoals verwacht.
-De laatste generatie had een accuraatheid met een waarde van 0.9993 en een loss met een waarde van 0.0031.
-Dit is een hoge accuraatheid en zal zorgen voor een vloeiend onderscheid bij het onderscheiden van de drie schriftsystemen.
-Uiteindelijk werd een laatste evaluatie uitgevoerd met de ongeziene testdata en testlabels.
-Ook hier was er een hoge accuraatheid van 0.9996 en een lage loss. ( Figuur \ref{tab:testResults})
+In dit hoofdstuk zullen de vooropgestelde experimenten worden uitgevoerd en zullen de bekomen resultaten worden besproken.
+
+\section{Het testen van het model door middel van ongeziene testdata}
+
+\subsection{Uitvoering}
+
+
+Bij het trainen van het model werd al een hoge accuraatheid bereikt, om dit te bevestigen werd een lijst van ongeziene data ingevoerd in het model en werd er gekeken naar de accuraatheid.
+Vooraleer het model werd aangemaakt en de nodige lagen waren toegevoegd werd de lijst van data en labels opgesplitst in trainingsdata en trainingslabels en in testdata en testlabels.
+Bij deze test werd testdata en testlabels gebruikt.
+
+\subsection{Resultaten}
+
+De accuraatheid van de test lag hoog met een waarde van 0.9996, dit bevestigd de werking van het model en er wordt besloten dat het model drie ongeziene schriftsystemen van elkaar simpelweg kan onderscheiden. (Figuur \ref{tab:testResults})
+De resultaten van dit experimenten voldoen ook aan de vooropgestelde verwachtingen.
+
+\section{Het gebruik van het model bij afbeeldingen van ongeziene alleenstaande karakters}
+
+\subsection{Uitvoering}
+
+Een aantal ongekende afbeeldingen werden vervolgens gebruikt met als doel een voorbeeld te geven hoe het gebruikt zou worden in de praktijk.
+Een ongekende afbeelding wordt opgeslagen en vervolgens in het model geplaatst.
+Eerst en vooral wordt de afbeelding gevormd naar de verwachte afmetingen.
+Het model berekent welk schriftsysteem het best past bij de afbeelding en hieruit haalt een script de hoogste waarde uit de lijst van percentages die verkregen zijn vanuit de uitvoerlaag van het model.
+Uiteindelijk kijkt het gebruikte script naar de overeenkomende waarde met de lijst van schriftsystemen en geeft dit weer.
+
+\subsection{Resultaten}
+
+De resultaten zijn steeds correct, bij elke afbeelding van een karakter uit een gebruikt schriftsysteem voorspelt het model het juiste schriftsysteem. (Figuur \ref{tab:examples} )
+Dit resultaten van dit experimenten voldoen aan de vooropgestelde verwachtingen.
+
+\section{Het gebruik van het model met een vierde schriftsysteem}
+
+\subsection{Uitvoering}
+
+Eerst en vooral werd de gevonden data in een zelfde map geplaatst, net zoals bij de andere drie schriftsystemen.
+Bij de voorbereide data werd vervolgens het Devanagari toegevoegd en een nieuwe dataset met de nodige labels werd verkregen voor het trainen van het model.
+Het aantal neuronen van de laatste normale laag werd aangepast naar een waarde van 4 in plaats van een waarde van 3, dit aangezien er 4 verschillende schriftsystemen worden gebruikt.
+Vervolgens werd het model opnieuw getraind, bij het trainen van het model werd opnieuw een hoge accuraatheid bereikt. 
+
+\subsection{Resultaten}
+Wanneer het tweede experiment opnieuw werd uitgevoerd met een afbeelding van karakter uit het Devanagari was het voorspelde schriftsysteem niet correct, dit zorgde ook voor problemen bij het voorspellen van een karakter uit het Kanji.
+Het model kon wel nog altijd het Arabisch en Latijns correct voorspellen, het model vergiste zich enkel vaak tussen het Devanagari en het Kanji.
+Dit resultaten van dit experiment voldoen aan de vooropgestelde verwachtingen.
+
+\subsection{Verklaring en Reactie}
+
+Dit voorval valt te verklaren aan het feit dat het Kanji en het Devanagari veelal op elkaar gelijken.
+Om dit op te lossen werd er getracht het model te verbeteren.
+Er werd een nieuwe convolutionele laag toegevoegd aan het model met een 64 filters en een grote van 5x5, dit zou voor een betere voorspelling zorgen aangezien het model meer zou letten op specifieke kenmerken van de karakters.
+Wanneer het model opnieuw werd getraind en getest was er geen wijziging bij de voorspelling.
+Een aantal andere wijzigingen werden uitgevoerd op het model maar er was geen verandering in de resultaten.
+
+Wanneer twee schriftsystemen worden gebruikt die veel gelijkaardige kenmerken bevatten heeft het model moeite met het onderscheiden van deze twee systemen.
+Dit aangezien het model verschillende karakters moet linken aan een specifiek schriftsysteem, het model tracht hierbij kenmerken aan te leren dat eigen zijn aan het schriftsysteem, wanneer twee schriftsystemen deze kenmerken delen en het model beide van deze schriftsystemen wordt aangeleerd kan het moeilijk onderscheid maken tussen de twee systemen.
+Aangezien er steeds een hoge accuraatheid werd teruggeven bij het trainen van het model maar het model niet accuraat kon gokken op ongeziene afbeeldingen werd er besloten dat het probleem bij de datasets lag. 
+
+De gebruikte datasets bestaan vooral uit karakters geschreven door personen die het schriftsysteem niet vaak gebruiken, hierdoor bestaan er vreemde vervormingen van het karakter waardoor het totaal niet meer gelijkend is op het bedoelde karakter.
+Zelf voor een persoon is het moeilijk om het geschreven karakter te linken aan het bedoelde karakter.
+
+Bij figuur \ref{tab:compare} is het linkse karakter een voorbeeld uit de gebruikte dataset voor het Devanagari en het rechtse karakter is het bedoelde karakter. Het is duidelijk dat deze twee niet op elkaar gelijken, het rechtse karakter lijkt meer op een O en een T dat uit het Latijns schrift komt, hierdoor vindt verwarring vaak plaats.
+
+Een oplossing hiervoor is het gebruik van betere datasets maar aangezien datasets van handgeschreven karakters van een schriftsysteem zeer schaars zijn is dit moeilijk.
+
+
+\begin{figure}
+    
+    \centering
+    \includegraphics[scale=0.9]{img/vergelijking.png}
+    
+    \caption{Links een voorbeeld uit de gebruikte dataset voor het Devanagari, rechts het bedoelde karakter.}
+    \label{tab:compare}
+    
+\end{figure}
+
 
 \begin{figure}
     
@@ -333,24 +443,7 @@ Ook hier was er een hoge accuraatheid van 0.9996 en een lage loss. ( Figuur \ref
     
 \end{figure}
 
-\section{Gebruik}
 
-Een aantal ongekende afbeeldingen werden vervolgens gebruikt met als doel een voorbeeld te geven hoe het gebruikt zou worden in de praktijk.
-Een ongekende afbeelding wordt opgeslagen en vervolgens in het model geplaatst.
-Eerst en vooral wordt de afbeelding gevormd naar de verwachte afmetingen.
-Het model berekent welk schriftsysteem het best past bij de afbeelding en hieruit haalt een script de hoogste waarde uit de lijst van percentages die verkregen zijn vanuit de uitvoerlaag van het model.
-Uiteindelijk kijkt het gebruikte script naar de overeenkomende waarde met de lijst van schriftsystemen en geeft dit weer.
-De resultaten zijn steeds correct, bij elke afbeelding van een karakter uit een gebruikt schriftsysteem voorspelt het model het juiste schriftsysteem. (Figuur \ref{tab:examples} )
-
-Het gebruik van deze software zou het meest efficiënt zijn met het gebruik van een bijkomende applicatie op een smartphone.
-Bij de volgende probleemstelling wordt voorop vastgesteld dat een volledig model is ontwikkeld dat in staat is om een groot aantal veel gebruikte schriftsystemen van elkaar te onderscheiden. \\
-Stel nu dat een geleerde in de forensische letterkunde een opdracht krijgt waarbij hij/zij een document dat geschreven is in een ongekend schriftsysteem moet herkennen en lokaliseren. Vooraleer de letterkundige uit eigen ervaring tracht het schriftsysteem te lokaliseren gebruikt hij eerst de mobiele applicatie op zijn smartphone, hij neemt een foto van een karakter in het document en krijgt vervolgens een voorspeld resultaat. \\
-Hiervoor moet de software niet volledig accuraat zijn, aangezien het een ongekend schriftsysteem is zal het ook niet veel gebruikt zijn en bestaat de kans dat het niet aangeleerd is aan het model.
-Maar een ongekend schriftsysteem dat niet veel gebruikt wordt stamt vaak af van een ander schriftsysteem waarbij de kans wel bestaat dat het aangeleerd is aan het model. \\
-Wanneer de mobiele applicatie het schriftsysteem teruggeeft dat veel eigenschappen deelt met het ongekende schriftsysteem, geeft dit al een goede start aan de letterkundige voor het lokaliseren van het ongekende schrift.
-
-Wanneer gewerkt zou worden met volledige woorden of paragrafen bestaande uit karakters uit een schriftsysteem zouden alle karakters herkend kunnen worden en een pluspunt geven aan het door het model voorspelde schriftsysteem.
-Als voor alle karakters een voorspelling is gemaakt zou het schriftsysteem met de meeste pluspunten gekozen worden als resultaat.
 
  
 \begin{figure}

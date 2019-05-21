@@ -15,22 +15,26 @@
 %onderzoek?
 
 Dit onderzoek ging na of het mogelijk is om schriftsystemen te onderscheiden met behulp van een convolutioneel neuraal netwerk.
-De resultaten van het gemaakte model waren positief, het is gelukt om drie verschillende schriftsystemen van elkaar te onderscheiden met behulp van een convolutioneel neuraal netwerk.
+Vervolgens werd het model getest met een groot aantal ongeziene data.
+De resultaten van de test waren positief, het is gelukt om drie verschillende schriftsystemen van elkaar te onderscheiden met behulp van een convolutioneel neuraal netwerk.
 
 Er werd verwacht dat het model deze drie schriftsystemen met weinig moeite zou kunnen onderscheiden en dit met een hoge accuraatheid.
-Dit was inderdaad het geval, wanneer de generaties waren voltooid werd er een test uitgevoerd op het model met ongeziene data en de accuraatheid was nog altijd hoog.
+Dit was inderdaad het geval, wanneer de generaties waren voltooid werd er een test uitgevoerd op het model met ongeziene data en het model kon steeds de correcte schriftsystemen voorspellen.
 
 Het onderzochte levert een bijdrage aan het classificeren van individuele karakters onder hun schriftsysteem, dit kan gebruikt worden in het analyseren en lokaliseren van documenten met onbekende schriftsystemen.\\
 Ook kan dit gebruikt worden vooraleer karakters van een specifiek schriftsysteem in een onbekend document moeten worden herkend. Eerst wordt bepaald welk schriftsysteem er gebruikt wordt in het document en vervolgens kan een andere programma de karakters herkennen onder het bepaalde schriftsysteem.
 
 De drie gebruikte schriftsystemen staan elk onder een verschillende overkoepelende groep waardoor ze elk heel weinig gelijkende karakteristieken bevatten. \\
-Naast het onderscheiden van deze drie schriftsystemen is er geëxperimenteerd met meerdere schriftsystemen om het model aan te leren.\\
-Een daarvan is het Devanagari, een systeem dat gebruikt wordt in Indië.
+Naast het onderscheiden van deze drie schriftsystemen is er geëxperimenteerd met een het aanleren van een vierde schriftsysteem.
+Dit was het Devanagari, een systeem dat gebruikt wordt in Indië.
 Dit schriftsysteem is zeer gelijkaardig aan het Kanji aangezien het met dezelfde hoeken, vormen en lijnen werkt.\\
-Wanneer een dataset bestaande uit verschillende karakters van het Devanagari aan het model werd aangeleerd was er een lagere accuraatheid, ook wanneer het getest werd in de praktijk maakte het model fouten bij het herkennen van het Kanji of Devanagari aangezien het de systemen niet goed genoeg van elkaar kon onderscheiden.
+Wanneer een dataset bestaande uit verschillende karakters van het Devanagari aan het model werd aangeleerd was er nog steeds een hoge accuraatheid, maar wanneer het getest werd in de praktijk maakte het model fouten bij het herkennen van het Kanji of Devanagari aangezien het de systemen niet goed genoeg van elkaar kon onderscheiden.
 
-Uit dit experiment kan er besloten worden dat als er software zou worden geschreven om vele verschillende schriftsystemen van elkaar te onderscheiden er een meer accuraat model geschreven moet worden met meer aandacht aan de gebruikte filters, het aantal neuronen en het aantal lagen die in het model worden gebruikt.
-Wanneer dit niet genoeg zou zijn en er nog altijd een lage accuraatheid is zal er moeten gekeken worden naar het gebruik van andere technologieën dit het proces van het model kunnen vergemakkelijken.
+Uit dit experiment kan er besloten worden dat het probleem niet lag bij het model aangezien het steeds een hoge accuraatheid had maar bij ongeziene alleenstaande karakters kon het model niet altijd het correcte systeem voorspellen. \\
+Er werd besloten dat het probleem bij de gebruikte datasets lag, dit door de handgeschreven karakters die vaak geschreven waren door onervaren personen die de juiste kenmerken van het schriftsysteem niet konden vastleggen op papier.
+Als er software zou worden geschreven om vele verschillende schriftsystemen van elkaar te onderscheiden zou een meer accuraat model niet voldoen.
+Waar er juist verandering in moet komen is de gebruikte datasets, de datasets moeten bestaan uit een groot aantal karakters per schriftsysteem maar deze steeds geschreven door ervaren gebruikers van het schriftsysteem zodanig dat de juiste kenmerken van het systeem kunnen worden vastgelegd op papier. 
+En zo zal het model een betere voorspelling kunnen bieden.
 
 Een grote factor die in acht moeten worden genomen is de beschikbaarheid van de nodige datasets. Een groot deel van de tijd dat in dit onderzoek werd gestoken in het vinden van goede datasets, wanneer dit zou gebeuren voor een groot aantal schriftsystemen is dit niet evident.
 

@@ -11,7 +11,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.2}{\ignorespaces Python code voor de manipulatie van de gebruikte datasets (CATEGORIES zijn de gebruikte schriftsystemen) }}{32}{table.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Het opslaan van de verwerkte data in python door middel van pickle }}{32}{table.3.3}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Het opslaan van de verwerkte data in Python door middel van pickle }}{32}{table.3.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.4}{\ignorespaces Het inladen en normaliseren van de data en het opsplitsen van de data}}{33}{table.3.4}% 
 \defcounter {refsection}{0}\relax 
@@ -19,7 +19,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.6}{\ignorespaces Het compileren van het model met de nodige instellingen}}{36}{table.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.7}{\ignorespaces Het trainen van het model met de nodige parameters}}{36}{table.3.7}% 
+\contentsline {table}{\numberline {3.7}{\ignorespaces Het trainen van het model met de nodige parameters}}{38}{table.3.7}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 

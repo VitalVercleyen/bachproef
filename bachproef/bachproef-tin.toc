@@ -17,7 +17,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Artifici\IeC {\"e}le intelligentie}{19}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Machine Learning en Deep Learning}{20}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Machine learning en deep learning}{20}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Convolutional Neural Network}{23}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
@@ -37,13 +37,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Het Convolutioneel Neuraal Netwerk}{31}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Trainen en testen}{36}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}Trainen van het model}{36}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Resultaten}{36}{section.3.5}% 
+\contentsline {section}{\numberline {3.5}Gebruik}{36}{section.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Gebruik}{37}{section.3.6}% 
+\contentsline {section}{\numberline {3.6}Opstellen experimenten}{37}{section.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{39}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Experimenten}{39}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{41}{appendix*.6}% 
+\contentsline {section}{\numberline {4.1}Het testen van het model door middel van ongeziene testdata}{39}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Uitvoering}{39}{subsection.4.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Resultaten}{39}{subsection.4.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Het gebruik van het model bij afbeeldingen van ongeziene alleenstaande karakters}{40}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Uitvoering}{40}{subsection.4.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Resultaten}{40}{subsection.4.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Het gebruik van het model met een vierde schriftsysteem}{40}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Uitvoering}{40}{subsection.4.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Resultaten}{40}{subsection.4.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Verklaring en Reactie}{41}{subsection.4.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusie}{43}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{45}{appendix*.6}% 
 \contentsfinish 
